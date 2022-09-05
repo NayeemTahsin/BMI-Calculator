@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BMI Calculator</title>
+    <script src="BMI.js"></script>
+  <link rel="stylesheet" type="text/css" href="BMI.css">
+  </head>
+  <body>
+    <div class="main" onload="showAlert();">
+
+      <div id="b_1" class="box">
+        <h1>BMI Calculator</h1>
+        <!-- Weight -->
+        <div class="weight">
+          <input type="number" id="weight" placeholder="--Your Weight--" onkeyup="require();">
+        </div>
+        <div class="unit_1">
+          <select id="u_1">
+            <option value="Kg">Kg</option>
+            <option value="lbs">lbs</option>
+          </select>
+        </div>
+        <!-- Height -->
+        <div class="height">
+          <input type="number" id="height" placeholder="--Your Height--" onkeyup="require();">
+        </div>
+        <div class="unit_2">
+          <select id="u_2">
+            <option value="cm">cm</option>
+            <option value="in">inch</option>
+          </select>
+        </div>
+
+          <button id="button" name="button" class="button" onclick="showAlert()" disabled>calculate</button>
+          </div>
+          <div id="b_2"class="box_2">
+
+            <div id="res" class="res"> Your BMI</div>
+            <div id="digit" class="digit">29</div>
+            <div id="adv" class="adv"></div>
+            <button id="button_2" name="button_2" class="button_2" onclick="ReTurn();">Back</button>
+            </div>
+
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
