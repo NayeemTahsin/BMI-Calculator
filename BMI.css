@@ -129,17 +129,16 @@ input::-webkit-inner-spin-button {
   }
 
 .box_2 {
-  position:relative;
+  position:absolute;
   border: 2px solid white;
   width:320px;
   height: 280px;
-  top:-3%;
+  top:30%;
   left: 35%;
   border-radius: 15px;
   background: #7e8794;
   color: White;
   text-align: center;
-  padding: 2% 2%;
   z-index: -1;
 }
 .box_2 .res{
@@ -157,11 +156,11 @@ input::-webkit-inner-spin-button {
   font-size: 40px;
 }
 .box_2 .adv{
-  position: relative;
-  left: -5%;
+  position: absolute;
+  left:5%;
   background: none;
   padding-right: 10px;
-  top:20%;
+  top:50%;
   width:300px;
   word-break: break-all;
   white-space: normal;
